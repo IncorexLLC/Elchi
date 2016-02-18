@@ -1,0 +1,123 @@
+dog.n: DOG+;
+man.n: MAN+;
+cat.n: CAT+;
+street.n: STREET+;
+house.n: HOUSE+;
+book.n: BOOK+;
+park.n: PARK+;
+apple.n: APPLE+;
+store.n: STORE+;
+friend.n: FRIEND+;
+collar.n: COLLAR+;
+story.n: STORY+;
+piece.n: PIECE+;
+bread.n: BREAD+;
+cheese.n: CHEESE+;
+milk.n: MILK+;
+mother.n: MOTHER+;
+
+dogs.n: DOGS+;
+men.n: MEN+;
+cats.n: CATS+;
+streets.n: STREETS+;
+houses.n: HOUSES+;
+books.n: BOOKS+;
+parks.n: PARKS+;
+apples.n: APPLES+;
+stores.n: STORES+;
+pieces.n: PIECES+;
+friends.n: FRIENDS+;
+collars.n: COLLARS+;
+stories.n: STORIES+;
+mothers.n: MOTHERS+;
+
+I me: I+;
+he him: HE+;
+she her.p: SHE+;
+it: IT+;
+we us: WE+;
+they them: THEY+;
+you: YOU+;
+
+the: THE+;
+this.d: THISD+;
+this.p: THISP+;
+that.d: THATD+;
+that.p: THATP+;
+a an: A+;
+my: MY+;
+his: HIS+;
+her.d: HER+;
+some: SOME+;
+
+am.v are.v is.v be.v being.v: PRESENT- & BE+;
+was.v were.v been.v: PAST- & BE+;
+do.v doing: PRESENT- & DO+;
+did.v done.v: PAST- & DO+;
+have.v has.v having.v: PRESENT- & HAVE+;
+had.v: PAST- & HAVE+;
+can.v: PRESENT- & CAN+;
+should.v: PRESENT- & SHOULD+;
+will.v: PRESENT- & WILL+;
+would.v: PAST- & WILL+;
+see.v sees.v seeing.v: PRESENT- & SEE+;
+seen.v saw.v: PAST- & SEE+;
+eat.v eats.v eating.v: PRESENT- & EAT+;
+ate.v eaten.v: PAST- & EAT+;
+bring.v brings.v bringing.v: PRESENT- & BRING+;
+brought.v: PAST- & BRING+;
+hits.v hitting.v: PRESENT- & HIT+;
+hit.v: PAST- & HIT+;
+runs.v running.v: PRESENT- & RUN+;
+ran.v run.v: PAST- & RUN+;
+try.v tries.v trying.v: PRESENT- & TRY+;
+tried.v: PAST- & TRY+;
+say.v says.v saying.v: PRESENT- & SAY+;
+said.v: PAST- & SAY+;
+go.v goes.v going.v: PRESENT- & GO+;
+went.v gone.v: PAST- & GO+;
+buy.v buys.v buying.v: PRESENT- & BUY+;
+bought.v: PAST- & BUY+;
+chase.v chases.v chasing.v: PRESENT- & CHASE+;
+chased.v: PAST- & CHASE+;
+hear.v hears.v hearing.v: PRESENT- & HEAR+;
+heard.v: PAST- & HEAR+;
+arrive.v arrives.v arriving.v: PRESENT- & ARRIVE+;
+arrived.v: PAST- & ARRIVE+;
+
+in: IN+;
+with: WITH+;
+to: TO+;
+through: THROUGH+;
+at: AT+;
+
+happy.a: HAPPY+;
+angry.a: ANGRY+;
+big.a: BIG+;
+small.a: SMALL+;
+black.a: BLACK+;
+blue.a: BLUE+;
+surprised.a: SURPRISED+;
+scared.a scared.v: SCARED+;
+
+quickly.e: QUICKLY+;
+because: BECAUSE+;
+very.e: VERY+;
+quite.e: QUITE+;
+yesterday: YESTERDAY+;
+when: WHEN+;
+
+who that.r: WHO+;
+that.c: THATC+;
+
+and: AND+;
+
+'s: POSS+;
+
+CAPITALIZED-WORDS: CAPWORD+;
+LEFT-WALL: LEFTWALL+;
+RIGHT-WALL: RIGHTWALL+;
+",": COMMA+;
+".": PERIOD+;
+"?": QUESTIONMARK+;
+"!": EXCLAMATIONMARK+;

@@ -1,0 +1,129 @@
+LEFT-WALL: LEFTWALL+;
+
+Hund.n Hundes.n: DOG+; 
+Mann.n Mannes.n: MAN+; 
+Park.n Parkes.n: PARK+;
+Freund.n Freundes.n: FRIEND+;
+Strasse.n: STREET+;
+Katze.n: CAT+;
+Geschichte.n: STORY+;
+Haus.n Hauses.n: HOUSE+;
+Buch.n Buches.n: BOOK+;
+Apfel.n Apfeles.n: APPLE+;
+Geschaeft.n Geschaeftes.n: STORE+;
+Halsband.n Halsbandes.n: COLLAR+;
+Mutter: MOTHER+;
+Stueck.n Stueckes.n: PIECE+;
+Brote.n Brotes.n: BREAD+;
+Kaese.n Kaeses.n: CHEESE+;
+Milch.n: MILK+;
+
+Hunde.n: DOGS+;
+Maenner.n: MEN+;
+Katzen.n: CATS+;
+Hauser.n: HOUSES+;
+Strassen.n: STREETS+;
+Buecher.n: BOOKS+;
+Parke.n: PARKS+;
+Aepfel.n: APPLES+;
+Geschaefte.n: STORES+;
+Freunde.n: FRIENDS+;
+Halsbaender.n: COLLARS+;
+Muetter.n: MOTHERS+;
+Geschichten.n: STORIES+;
+Stuecke.n: PIECES+;
+
+ich mich mir: I+;
+er.p ihm.m ihn: HE+;
+es.p ihm.s: IT+;
+sie.s ihr.p: SHE+;
+sie.p ihnen: THEY+;
+wir uns: WE+;
+du dich dir: YOU+;
+
+dies: THISP+;
+das.p: THATP+;
+
+die.d der.d das.d den.d dem.d des.d: DEF+ & THE+;
+dieser diese dieses diesen diesem: DEF+ & THISD+;
+jener jene jenes jenen jenem: DEF+ & THATD+;
+ein eine einen einem einer eines: INDEF+ & A+;
+mein meine meinen meinem meiner meines: INDEF+ & MY+;
+sein.d seine seinen seinem seiner seines: INDEF+ & HIS+;
+ihr.d ihre ihren ihrem ihrer ihres: INDEF+ & HER+;
+die.r der.r das.r den.r dem.r: WHO+;
+
+etwas.d einige einigen einiger: DEF+ & SOME+;
+
+bin.v bist.v ist.v sein.v: PRESENT- & BE+;
+war.i warst.v war.s waren.v gewesen.v: PAST- & BE+;
+habe.v hast.v hat.v haben.v haben.i: PRESENT- & HAVE+;
+hatte.i hattest.v hatte.s hatten.v gehabt.v: PAST- & HAVE+;
+werde.v wirst.v wird.v werden.v werden.i: PRESENT- & WILL+;
+wurde.v wurdest.v wurden.v worden.i: PAST- & WILL+;
+kann.v kannst.v koennen.v: PRESENT- & CAN+;
+kannte.m kanntest.m kannten.m: PAST- & CAN+;
+soll.v sollst.v sollen.v: PRESENT- & SHOULD+;
+sollte.v solltest.v sollten.v: PAST- & SHOULD+;
+bringe.v bringst.v bringt.v bringen.v bringen.i: PRESENT- & BRING+;
+brachte.i brachtest.v brachte.s brachten.v gebracht.v: PAST- & BRING+;
+sehe.v siehst.v sieht.v sehen.v sehen.i: PRESENT- & SEE+;
+sah.i sahst.v sah.s sahten.v gesehen.v: PAST- & SEE+;
+schlage.v schlagst.v schlagt.v schlagen.v schlagen.i: PRESENT- & HIT+;
+schlug.i schlugst.v schlug.s schlugten.v geschlagt.v: PAST- & HIT+;
+esse.v isst.d isst.s essen.v essen.i: PRESENT- & EAT+;
+ass.i assest.v ass.s assen.v gegessen.v: PAST- & EAT+;
+laufe.v laeuft.v laeufst.v laufen.v laufen.i: PRESENT- & RUN+;
+lief.i liefst.v lief.s liefen.v gelaufen.v: PAST- & RUN+;
+versuche.v versuchst.v versucht.v versuchtet.v versuchen.v versuchen.i: 
+PRESENT- & TRY+;
+versuchte.i versuchtest.v versuchte.s versuchten.v versuchen.p: PAST- & TRY+;
+sage.v sagst.v sagt.v sagen.v sagen.i: PRESENT- & SAY+;
+sagte.v sagtest.v sagte.i sagten.v gesagt.v: PAST- & SAY+;
+gehe.v gehst.v geht.v gehen.v gehen.i: PRESENT- & GO+;
+ging.i gingst.v ging.s gingen.v gegangen.v: PAST- & GO+;
+kaufe.v kaufst.v kauft.v kaufen.v kaufen.i: PRESENT- & BUY+;
+kaufte.i kauftest.v kaufte.s kauften.v gekauft.v: PAST- & BUY+;
+jage.v jagst.v jagt.v jagen.v jagen.i: PRESENT- & CHASE+;
+jagte.i jagtest.v jagte.s jagten.v gejagt.v: PAST- & CHASE+;
+hoere.v hoerst.v hoert.v hoeren.v hoeren.i: PRESENT- & HEAR+;
+hoerte.i hoertest.v hoerte.s hoerten.v gehoert.v: PAST- & HEAR+;
+an+komme.v an+kommst.v an+kommt.v an+kommen.v an+kommen.i: PRESENT- & ARRIVE+;
+an+kam.i an+kamst.v an+kam.s an+kamen.v an+gekommen.v: PAST- & ARRIVE+;
+
+in: IN+;
+mit: WITH+;
+zu: TO+;
+durch: THROUGH+;
+an: AT+;
+
+froh.a: HAPPY+;
+boese.a: ANGRY+;
+gross.a: BIG+;
+klein.a: SMALL+;
+schwarz.a: BLACK+;
+blau.a: BLUE+;
+erstaunt.a: SURPRISED+;
+besorgt.a: SCARED+;
+%erschreckt.v?
+
+schnell.e: QUICKLY+;
+sehr.e: VERY+;
+ziemlich.e: QUITE+;
+
+gestern.e: YESTERDAY+;
+wann als: WHEN+;
+weil: BECAUSE+;
+dass: THATC+;
+
+und: AND+;
+
+s: POSS+;
+
+NAME: CAPWORD+;
+
+RIGHT-WALL: RIGHTWALL+;
+",": COMMA+;
+".": PERIOD+;
+"?": QUESTIONMARK+;
+"!": EXCLAMATIONMARK+;
