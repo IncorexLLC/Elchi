@@ -1,0 +1,49 @@
+------ Build started: Project: link42, Configuration: Release Win32 ------
+Compiling...
+utilities.c
+c:\translator\link42\src\utilities.c(21) : warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        c:\program files\microsoft visual studio 8\vc\include\string.h(157) : see declaration of 'strncpy'
+c:\translator\link42\src\utilities.c(28) : warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        c:\program files\microsoft visual studio 8\vc\include\string.h(144) : see declaration of 'strncat'
+c:\translator\link42\src\utilities.c(233) : warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        c:\program files\microsoft visual studio 8\vc\include\string.h(74) : see declaration of 'strcpy'
+c:\translator\link42\src\utilities.c(247) : warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        c:\program files\microsoft visual studio 8\vc\include\string.h(74) : see declaration of 'strcpy'
+c:\translator\link42\src\utilities.c(377) : warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        c:\program files\microsoft visual studio 8\vc\include\stdio.h(345) : see declaration of 'sprintf'
+c:\translator\link42\src\utilities.c(377) : warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        c:\program files\microsoft visual studio 8\vc\include\stdlib.h(483) : see declaration of 'getenv'
+c:\translator\link42\src\utilities.c(405) : warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        c:\program files\microsoft visual studio 8\vc\include\stdio.h(234) : see declaration of 'fopen'
+c:\translator\link42\src\utilities.c(406) : warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        c:\program files\microsoft visual studio 8\vc\include\stdio.h(234) : see declaration of 'fopen'
+c:\translator\link42\src\utilities.c(416) : warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        c:\program files\microsoft visual studio 8\vc\include\string.h(157) : see declaration of 'strncpy'
+c:\translator\link42\src\utilities.c(418) : warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        c:\program files\microsoft visual studio 8\vc\include\string.h(74) : see declaration of 'strcpy'
+c:\translator\link42\src\utilities.c(419) : warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        c:\program files\microsoft visual studio 8\vc\include\stdio.h(234) : see declaration of 'fopen'
+c:\translator\link42\src\utilities.c(426) : warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        c:\program files\microsoft visual studio 8\vc\include\string.h(74) : see declaration of 'strcpy'
+c:\translator\link42\src\utilities.c(428) : warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        c:\program files\microsoft visual studio 8\vc\include\string.h(74) : see declaration of 'strcpy'
+c:\translator\link42\src\utilities.c(429) : warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        c:\program files\microsoft visual studio 8\vc\include\stdio.h(234) : see declaration of 'fopen'
+c:\translator\link42\src\utilities.c(468) : warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        c:\program files\microsoft visual studio 8\vc\include\stdio.h(234) : see declaration of 'fopen'
+c:\translator\link42\src\utilities.c(493) : warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        c:\program files\microsoft visual studio 8\vc\include\stdio.h(345) : see declaration of 'sprintf'
+c:\translator\link42\src\utilities.c(501) : warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        c:\program files\microsoft visual studio 8\vc\include\string.h(157) : see declaration of 'strncpy'
+c:\translator\link42\src\utilities.c(503) : warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        c:\program files\microsoft visual studio 8\vc\include\string.h(74) : see declaration of 'strcpy'
+c:\translator\link42\src\utilities.c(504) : warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        c:\program files\microsoft visual studio 8\vc\include\stdio.h(234) : see declaration of 'fopen'
+Linking...
+Embedding manifest...
+Creating browse information file...
+Microsoft Browse Information Maintenance Utility Version 8.00.50727
+Copyright (C) Microsoft Corporation. All rights reserved.
+Build log was saved at "file://c:\Translator\link42\Release\BuildLog.htm"
+link42 - 0 error(s), 19 warning(s)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

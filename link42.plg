@@ -1,0 +1,151 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: link42 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\LILYAL~1\LOCALS~1\Temp\RSP6D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "include" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Release/" /Fp"Release/link42.pch" /YX /Fo"Release/" /Fd"Release/" /FD /GZ /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\analyze-linkage.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\and.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\api.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\build-disjuncts.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\command-line.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\constituents.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\count.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\error.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\extract-links.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\fast-match.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\idiom.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\linkset.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\massage.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\parse.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\post-process.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\pp_knowledge.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\pp_lexer.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\pp_linkset.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\preparation.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\print-util.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\print.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\prune.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\read-dict.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\resources.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\string-set.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\tokenize.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\utilities.c"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\link42\src\word-file.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\LILYAL~1\LOCALS~1\Temp\RSP6D.tmp" 
+Creating temporary file "C:\DOCUME~1\LILYAL~1\LOCALS~1\Temp\RSP6E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Release/link42.pdb" /debug /machine:I386 /out:"Release/link42.exe" /pdbtype:sept 
+".\Release\analyze-linkage.obj"
+".\Release\and.obj"
+".\Release\api.obj"
+".\Release\build-disjuncts.obj"
+".\Release\command-line.obj"
+".\Release\constituents.obj"
+".\Release\count.obj"
+".\Release\error.obj"
+".\Release\extract-links.obj"
+".\Release\fast-match.obj"
+".\Release\idiom.obj"
+".\Release\linkset.obj"
+".\Release\massage.obj"
+".\Release\parse.obj"
+".\Release\post-process.obj"
+".\Release\pp_knowledge.obj"
+".\Release\pp_lexer.obj"
+".\Release\pp_linkset.obj"
+".\Release\preparation.obj"
+".\Release\print-util.obj"
+".\Release\print.obj"
+".\Release\prune.obj"
+".\Release\read-dict.obj"
+".\Release\resources.obj"
+".\Release\string-set.obj"
+".\Release\tokenize.obj"
+".\Release\utilities.obj"
+".\Release\word-file.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\LILYAL~1\LOCALS~1\Temp\RSP6E.tmp"
+<h3>Output Window</h3>
+Compiling...
+analyze-linkage.c
+and.c
+c:\program files\microsoft visual studio\myprojects\link42\src\analyze-linkage.c(839) : warning C4700: local variable 'li' used without having been initialized
+api.c
+build-disjuncts.c
+command-line.c
+constituents.c
+count.c
+c:\program files\microsoft visual studio\myprojects\link42\src\constituents.c(988) : warning C4761: integral size mismatch in argument; conversion supplied
+error.c
+extract-links.c
+fast-match.c
+idiom.c
+linkset.c
+massage.c
+parse.c
+post-process.c
+pp_knowledge.c
+pp_lexer.c
+c:\program files\microsoft visual studio\vc98\include\stdlib.h(367) : warning C4028: formal parameter 1 different from declaration
+c:\program files\microsoft visual studio\vc98\include\stdlib.h(385) : warning C4028: formal parameter 1 different from declaration
+pp_linkset.c
+preparation.c
+print-util.c
+print.c
+prune.c
+read-dict.c
+resources.c
+string-set.c
+tokenize.c
+utilities.c
+word-file.c
+Linking...
+Creating temporary file "C:\DOCUME~1\LILYAL~1\LOCALS~1\Temp\RSP70.tmp" with contents
+[
+/nologo /o"Release/link42.bsc" 
+".\Release\analyze-linkage.sbr"
+".\Release\and.sbr"
+".\Release\api.sbr"
+".\Release\build-disjuncts.sbr"
+".\Release\command-line.sbr"
+".\Release\constituents.sbr"
+".\Release\count.sbr"
+".\Release\error.sbr"
+".\Release\extract-links.sbr"
+".\Release\fast-match.sbr"
+".\Release\idiom.sbr"
+".\Release\linkset.sbr"
+".\Release\massage.sbr"
+".\Release\parse.sbr"
+".\Release\post-process.sbr"
+".\Release\pp_knowledge.sbr"
+".\Release\pp_lexer.sbr"
+".\Release\pp_linkset.sbr"
+".\Release\preparation.sbr"
+".\Release\print-util.sbr"
+".\Release\print.sbr"
+".\Release\prune.sbr"
+".\Release\read-dict.sbr"
+".\Release\resources.sbr"
+".\Release\string-set.sbr"
+".\Release\tokenize.sbr"
+".\Release\utilities.sbr"
+".\Release\word-file.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\LILYAL~1\LOCALS~1\Temp\RSP70.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+link42.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

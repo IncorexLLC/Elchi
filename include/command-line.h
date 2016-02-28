@@ -1,0 +1,1 @@
+void issue_special_command(wchar_t * line, Parse_Options opts, Dictionary dict);
